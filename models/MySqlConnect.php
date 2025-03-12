@@ -20,17 +20,17 @@ class MySqlConnect
     $this->dbname = 'DentAid';
     $this->port = '31150'; */
 
-/*     $this->host = 'roundhouse.proxy.rlwy.net';
+    $this->host = 'roundhouse.proxy.rlwy.net';
     $this->username = 'root';
     $this->password = 'jHkkvaUjydfcClHjGjJiojDsGEEOvXYk';
     $this->dbname = 'DentAid';
-    $this->port = '52350'; */
+    $this->port = '52350';
 
     /* LocalHost */
-    $this->host = 'localhost';
+    /*     $this->host = 'localhost';
     $this->username = 'root';
     $this->password = '123456';
-    $this->dbname = 'dentaid';
+    $this->dbname = 'dentaid'; */
   }
 
   /**
