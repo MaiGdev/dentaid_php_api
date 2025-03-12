@@ -4,7 +4,6 @@ ini_set('display_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', "C:/xampp/htdocs/proyecto/php_error_log");
 
-/* configuracion para que (CORS) el cual es un mecanismo que utiliza cabeceras HTTP adicionales para permitir que un user agent (en-US) obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto (dominio) al que pertenece */
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
 header("Access-Control-Allow-Methods: *");
